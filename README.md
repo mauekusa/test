@@ -1,11 +1,19 @@
 # test
 
-This repository contains a simple hello world example in `hello.py`.
+This repository contains example scripts and a simple landing page.
 
-`extract_highlights.py` demonstrates how to extract highlighted text from a PDF using PyMuPDF. Run it like so:
+## Landing Page
 
+The `landing` folder provides an HTML/CSS/JavaScript landing page for
+Pepacomi's kintone活用ちゃんねる. A minimal Python server (`server.py`)
+can be used to serve the page and save contact form submissions to
+`contacts.csv`.
+
+### Usage
+
+```bash
+cd landing
+python server.py
 ```
-python extract_highlights.py input.pdf output.pdf
-```
 
-It prints each highlighted text to the console and saves them into a new PDF.
+Then open `http://localhost:8000/index.html` in your browser.
