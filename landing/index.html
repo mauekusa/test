@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ペパコミ株式会社 kintone活用ちゃんねる</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>kintone活用ちゃんねる</h1>
+        <p>ペパコミ株式会社の公式チャンネルへようこそ！未来的な業務改善のヒントをお届けします。</p>
+        <a class="cta" href="https://www.youtube.com/" target="_blank">チャンネル登録はこちら</a>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <h2>最新のノウハウ</h2>
+            <p>kintoneを活用した事例やTIPSを動画でわかりやすく解説します。</p>
+        </div>
+        <div class="feature">
+            <h2>コミュニティ</h2>
+            <p>コメントや質問で他のユーザーと情報交換。あなたの疑問も解決！</p>
+        </div>
+        <div class="feature">
+            <h2>挑戦的なコンテンツ</h2>
+            <p>最新技術やAPI連携など、ワクワクする内容をどんどん公開中。</p>
+        </div>
+    </section>
+
+    <footer class="contact">
+        <h2>お問い合わせ</h2>
+        <form id="contact-form" action="/submit" method="POST">
+            <label for="company">会社名</label>
+            <input type="text" id="company" name="company" required>
+
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">送信</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
